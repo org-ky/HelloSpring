@@ -39,7 +39,6 @@ public class StudentController {
 		return student;
 	}
 	
-	
 	@ResponseBody
 	@RequestMapping(value = "/echostudent",
 		method = RequestMethod.POST,
