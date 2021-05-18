@@ -36,6 +36,7 @@ public class StudentController {
 		cources.add(new Course("Math", 15));
 		cources.add(new Course("Politics", 100));
 		cources.add(new Course("Economics", 50));
+		cources.add(new Course("Philosophy", 20));
 		
 		return student;
 	}
