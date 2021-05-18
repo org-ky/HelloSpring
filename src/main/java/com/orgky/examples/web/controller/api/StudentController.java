@@ -35,6 +35,7 @@ public class StudentController {
 		List<Course> cources = student.getCourses();
 		cources.add(new Course("Math", 15));
 		cources.add(new Course("Politics", 100));
+		cources.add(new Course("Economics", 50));
 		
 		return student;
 	}
